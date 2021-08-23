@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangles</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>fun with triangles</h1>
+        <nav>
+          <a href="/IsTriangle/isTriangle.html">Is Triangle?</a>
+          <a href="/index.html">Quiz</a>
+          <a href="/findHypotenuse/hypotenuse.html">Hypotenuse</a>
+          <a href="/areaOfTriangle/area.html">Area of Triangle</a>
+        </nav>
+    </header>
+    <h1 style="padding:2rem;">Calculate Hypotenuse of a triangle</h1>
+    <label class="input-label" for="base-value">
+        <p>Enter base value (a) =</p>
+        <input class="input-text" type="number" id="base" />
+    </label>
+    
+    <label class="input-label" for="height-value">
+        <p>Enter height value (h) =</p>
+        <input class="input-text" type="number" id="height" />
+    </label>
+    
+    <button class="btn-check" id="calculate-button">Calculate Hypotenuse</button>
+    <h2>Hypotenuse formula</h2>
+    <h3>√(base² + height²)</h3>
+    <div id="output"></div>
+
+    
+    <script src="/findHypotenuse/hypotenuse.js"></script>
+</body>
+</html>
